@@ -1,0 +1,23 @@
+.counter {
+    background-color: rgba(108, 35, 226, 0.651);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 6px 6px black;
+    position: relative;
+    margin: 20px auto;
+}
+
+.counter_title {
+    margin: 0px;
+}
+
+.counter_remove {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
