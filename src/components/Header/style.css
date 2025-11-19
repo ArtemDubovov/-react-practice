@@ -1,0 +1,16 @@
+.header_menu {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.header_menu .header_menu_item > * {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header_title {
+    font-size: 12px;
+}

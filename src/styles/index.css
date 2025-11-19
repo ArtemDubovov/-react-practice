@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+    min-height: 100vh; 
+    position: relative;
+}
+
+* {
+  font-family: "Stack Sans Headline", sans-serif;
+  font-style: normal;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}

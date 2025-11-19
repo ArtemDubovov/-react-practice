@@ -5,20 +5,20 @@ import './style.css';
 
 function Header() {
     return (
-        <div>
-            <h1>Header</h1>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
+        <header className="header">
+            <h1 className="header_title">React-practice</h1>
+            <ul className="header_menu">
+                <li className="header_menu_item">
+                    <Link to="/">#Home</Link>
                 </li>
-                <li>
-                    <Link to="/useState">UseState</Link>
+                <li className="header_menu_item">
+                    <Link to="/useState">#UseState</Link>
                 </li>
-                <li>
-                    <Link to="/useEffect">UseEffect</Link>
+                <li className="header_menu_item">
+                    <Link to="/useEffect">#UseEffect</Link>
                 </li>
             </ul>
-        </div>
+        </header>
     )
 }
 
