@@ -1,6 +1,6 @@
 import React from "react";
 
-function UseEffectPage() {
+function UseEffectComponent() {
     return (
         <div>
             <h1>UseEffect</h1>
@@ -8,4 +8,4 @@ function UseEffectPage() {
     )
 }
 
-export default UseEffectPage;
+export default UseEffectComponent;

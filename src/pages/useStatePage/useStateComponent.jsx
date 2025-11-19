@@ -1,6 +1,6 @@
 import React from "react";
 
-function UseStatePage() {
+function UseStateComponent() {
     return (
         <div>
             <h1>UseState</h1>
@@ -8,4 +8,4 @@ function UseStatePage() {
     )
 }
 
-export default UseStatePage;
+export default UseStateComponent;
