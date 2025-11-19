@@ -2,9 +2,9 @@ import React from "react";
 
 import './style.css';
 
-function Input() {
+function Input({inputValue, setInputValue}) {
     return(
-        <input />
+        <input onChange={(e) => setInputValue(e.target.value)} value={inputValue}/>
     ) 
 }
 

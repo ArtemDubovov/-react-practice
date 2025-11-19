@@ -1,0 +1,11 @@
+.button_base {
+    background-color: rgb(132, 255, 132);
+    cursor: pointer;
+}
+
+.button_del {
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+}

@@ -1,10 +1,11 @@
 import React from "react";
 
 import './style.css';
+import { STYLES_BTN } from ".";
 
-function Button({func, content}) {
+function Button({func, content, type}) {
     return(
-        <button onClick={func}>{content}</button>
+        <button className={STYLES_BTN[type] ?? STYLES_BTN['default']} onClick={func}>{content}</button>
     ) 
 }
 

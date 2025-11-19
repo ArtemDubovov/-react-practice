@@ -11,14 +11,14 @@ function Counter({remove}) {
     return (
         <div className="counter">
             <div className="counter_remove">
-                <Button func={remove} content='X'/>
+                <Button func={remove} type='del' content='X'/>
             </div>
             <h3 className="counter_title">Counter</h3>
             <p>{count}</p>
             <div className="counter_wrapper">
-                <Button func={incrCount} content='+'/>
-                <Button func={resetCount} content='r'/>
-                <Button func={decrCount} content='-'/>
+                <Button type='default' func={incrCount} content='+'/>
+                <Button type='default' func={resetCount} content='r'/>
+                <Button type='default' func={decrCount} content='-'/>
             </div>
             
         </div>
