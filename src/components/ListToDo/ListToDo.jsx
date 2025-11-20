@@ -19,7 +19,7 @@ function ListToDo() {
             <Button func={removeAll} type='default' content='Remove all' />
             <ul>
                 {list.map(el => {
-                    return <ListItem deleteItem={() => deleteItem(el.id)} ket={el.id} content={el.value}/>;
+                    return <ListItem deleteItem={() => deleteItem(el.id)} key={el.id} content={el.value}/>;
                 })}
             </ul>
             
