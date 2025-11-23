@@ -1,9 +1,19 @@
 import React from "react";
 
+import DATA_HOOKS from "./data.js";
+
+import './style.css';
+
 function Default() {
     return (
         <div className="page">
-            <h1>Default page</h1>
+            <h1>Home page</h1>
+            {DATA_HOOKS.map(hook => {
+                return <div className="hook-item">
+                    <h2>{hook.name}</h2>
+                    <p>{hook.description}</p>
+                </div>
+            })}
         </div>
     )
 }

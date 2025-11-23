@@ -1,0 +1,7 @@
+.hook-item {
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
