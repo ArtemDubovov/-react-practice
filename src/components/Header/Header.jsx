@@ -11,7 +11,7 @@ function Header() {
             <ul className="header_menu">
                 {
                     PAGES.map(page => {
-                        return  <li className="header_menu_item">
+                        return  <li key={page.url} className="header_menu_item">
                                     <Link to={page.url}>{page.pageName}</Link>
                                 </li>
                     })
