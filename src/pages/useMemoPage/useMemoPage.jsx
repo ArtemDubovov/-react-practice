@@ -19,7 +19,6 @@ function UseMemoPage() {
             fetchData();
         }, []);
     const memoPosts = useMemo(() => {
-        setTimeout(() => console.log('work...'), 1000);
         return posts.filter(post => post.id % 2 === 0 || checked);
     }, [posts, checked])
     return (

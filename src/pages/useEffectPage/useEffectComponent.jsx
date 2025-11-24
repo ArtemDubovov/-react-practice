@@ -13,9 +13,7 @@ function UseEffectPage() {
                 if (!res.status) throw new Error('Load is error.');
                 const data = await res.json();
                 setPosts(data.slice(0, 10));
-                setTimeout(() => setIsLoading(false), 1000);
-                console.log('123'); // !!!
-                
+                setTimeout(() => setIsLoading(false), 1000);              
             } catch (e) {
                 setError(e.message);
                 setIsLoading(false);
