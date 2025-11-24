@@ -10,9 +10,9 @@ function HomePage() {
             <h1>Home page</h1>
             {DATA_HOOKS.map(hook => {
                 return <div className="hook-item">
-                    <h2>{hook.name}</h2>
-                    <p>{hook.description}</p>
-                </div>
+                            <h2>{hook.name}</h2>
+                        <p>{hook.description}</p>
+                    </div>
             })}
         </div>
     )
