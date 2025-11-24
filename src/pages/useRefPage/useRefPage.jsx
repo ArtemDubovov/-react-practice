@@ -1,6 +1,6 @@
 import React from "react";
 
-function UseRefComponent() {
+function UseRefPage() {
     return (
         <>
 
@@ -8,4 +8,4 @@ function UseRefComponent() {
     )
 }
 
-export default UseRefComponent;
+export default UseRefPage;

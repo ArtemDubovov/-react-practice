@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect } from "react";
 import Post from "../../components/Post/Post";
 
-function UseMemoComponent() {
+function UseMemoPage() {
     const [checked, setChecked] = useState(false);
     const [posts, setPosts] = useState([]);
     useEffect(() => {
@@ -33,4 +33,4 @@ function UseMemoComponent() {
     )
 }
 
-export default UseMemoComponent;
+export default UseMemoPage;

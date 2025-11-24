@@ -3,7 +3,7 @@ import Counter from "../../components/Counter/Counter";
 import Button from "../../components/ui/Button/Button";
 import ListToDo from "../../components/ListToDo/ListToDo";
 
-function UseStateComponent() {
+function UseStatePage() {
     const [countList, setCountList] = useState([]);
     const addCounter = () => setCountList([...countList, {id: Date.now(), }]);
     const removeCounter = (id) => setCountList([...countList].filter(el => el.id !== id));
@@ -26,4 +26,4 @@ function UseStateComponent() {
     )
 }
 
-export default UseStateComponent;
+export default UseStatePage;

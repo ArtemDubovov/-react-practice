@@ -4,7 +4,7 @@ import DATA_HOOKS from "./data.js";
 
 import './style.css';
 
-function Default() {
+function HomePage() {
     return (
         <div className="page">
             <h1>Home page</h1>
@@ -18,4 +18,4 @@ function Default() {
     )
 }
 
-export default Default;
+export default HomePage;

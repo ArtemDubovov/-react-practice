@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Post from "../../components/Post/Post";
 
-function UseEffectComponent() {
+function UseEffectPage() {
     const [posts, setPosts] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -35,4 +35,4 @@ function UseEffectComponent() {
     )
 }
 
-export default UseEffectComponent;
+export default UseEffectPage;
