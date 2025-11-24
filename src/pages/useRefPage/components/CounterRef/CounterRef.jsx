@@ -7,10 +7,10 @@ function CounterRef() {
         alert(`Pressed ${counterRef.current}`);
     };
     return(
-        <>
-        <h3>Press for counter</h3>
-        <button onClick={handleClick}>+</button>
-        </>
+        <div className="wrapper_component">
+            <h3>Press for counter</h3>
+            <button onClick={handleClick}>+</button>
+        </div>
     )
 }
 
