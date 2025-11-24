@@ -10,11 +10,11 @@ function Header() {
             <h1 className="header_title">React-practice</h1>
             <ul className="header_menu">
                 {
-                    PAGES.map(page => {
-                        return  <li key={page.url} className="header_menu_item">
-                                    <Link to={page.url}>{page.pageName}</Link>
-                                </li>
-                    })
+                    PAGES.map(page => (
+                        <li key={page.url} className="header_menu_item">
+                            <Link to={page.url}>{page.pageName}</Link>
+                        </li>
+                    ))
                 }
             </ul>
         </header>

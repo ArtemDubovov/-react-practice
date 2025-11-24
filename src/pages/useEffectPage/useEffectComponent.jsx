@@ -14,6 +14,7 @@ function UseEffectComponent() {
                 const data = await res.json();
                 setPosts(data.slice(0, 10));
                 setTimeout(() => setIsLoading(false), 1000);
+                console.log('123'); // !!!
                 
             } catch (e) {
                 setError(e.message);
@@ -28,8 +29,8 @@ function UseEffectComponent() {
             <h1>UseEffect</h1>
             {isLoading ? <div>Loading...</div> : 
                 error ? <div>Error - {error}</div> : 
-                        posts.map(el => <Post key={el.id} title={el.title} text={el.body}/>)
-                }
+                        posts.map(el => <Post key={el.id} title={el.title} text={el.body}/>) // вынести в отд. компонент
+            }
         </div>
     )
 }

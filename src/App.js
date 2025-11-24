@@ -6,9 +6,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {
-          PAGES.map(page => {
-            return <Route path={page.url} element={page.component} />
-          })
+          PAGES.map(page => <Route key={page.url} path={page.url} element={page.component} />)
         }
       </Routes>
     </BrowserRouter>
