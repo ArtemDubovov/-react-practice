@@ -3,7 +3,7 @@ import React, { useCallback, useState } from "react";
 function UseCallback() {
     const [inputValue, setInputValue] = useState('');
     const testUseCallback = useCallback(() => {
-        console.log(inputValue); // ???
+        alert(inputValue); // ???
     }, [inputValue])
     return(
         <div className="page">
