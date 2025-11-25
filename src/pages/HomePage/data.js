@@ -40,6 +40,10 @@ const DATA_HOOKS = [
             Создание хука: const node = useRef().
             Добавление ссылки: <tagName ref={node}></tagName>.
         `
+    },
+    {
+        name: 'memo',
+        description: 'memo позволяет вам пропустить повторный рендер, когда пропсы не изменились.'
     }
 ];
 export default DATA_HOOKS;
