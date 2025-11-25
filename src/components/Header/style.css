@@ -2,6 +2,7 @@
     display: flex;
     gap: 24px;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .header_menu .header_menu_item > * {
