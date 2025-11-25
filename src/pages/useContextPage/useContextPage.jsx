@@ -10,6 +10,7 @@ function UseContextPage() {
     const [theme, setTheme] = useState('light');
     return(
         <div className={theme}>
+            <h1>UseContext</h1>
             <ThemeContext value={{
                 theme,
                 setTheme
