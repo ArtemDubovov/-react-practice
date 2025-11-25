@@ -1,5 +1,6 @@
 import HomePage from "../pages/HomePage/homePage";
 import MemoPage from "../pages/memo/Memo";
+import PortalPage from "../pages/portalPage/portalPage";
 import UseCallbackPage from "../pages/useCallbackPage/useCallbackPage";
 import UseContextPage from "../pages/useContextPage/useContextPage";
 import UseEffectPage from "../pages/useEffectPage/useEffectComponent";
@@ -19,6 +20,7 @@ const PAGES = [
     {url: '/useContext', pageName: '#UseContext', component: <UseContextPage />},
     {url: '/useReducer', pageName: '#UseReducer', component: <UseReducerPage />},
     {url: '/memo', pageName: '#memo', component: <MemoPage />},
+    {url: '/portal', pageName: '#portal', component: <PortalPage />},
 ]
 
 export default PAGES;
