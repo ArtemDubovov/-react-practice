@@ -5,7 +5,7 @@ function MemoPage() {
     const MemoizationComponent = memo(MemoComponent);
     return(
         <div className="page">
-            {[1, 2, 3].map(n => <MemoizationComponent number={n}/>)}
+            {[1, 2, 3].map(n => <MemoizationComponent key={n} number={n}/>)}
         </div>
     )
 }
