@@ -8,6 +8,7 @@ import UseMemoPage from "../pages/useMemoPage/useMemoPage";
 import UseReducerPage from "../pages/useReducerPage/UseReducerPage";
 import UseRefPage from "../pages/useRefPage/useRefPage";
 import UseStatePage from "../pages/useStatePage/useStatePage";
+import UseTransitionPage from "../pages/useTransitionPage/UseTransitonPage";
 
 
 const PAGES = [
@@ -21,6 +22,7 @@ const PAGES = [
     {url: '/useReducer', pageName: '#UseReducer', component: <UseReducerPage />},
     {url: '/memo', pageName: '#memo', component: <MemoPage />},
     {url: '/portal', pageName: '#portal', component: <PortalPage />},
+    {url: '/useTransitionPage', pageName: '#useTransition', component: <UseTransitionPage />},
 ]
 
 export default PAGES;
