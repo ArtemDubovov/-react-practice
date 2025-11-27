@@ -10,6 +10,7 @@ import UseReducerPage from "../pages/useReducerPage/UseReducerPage";
 import UseRefPage from "../pages/useRefPage/useRefPage";
 import UseStatePage from "../pages/useStatePage/useStatePage";
 import UseTransitionPage from "../pages/useTransitionPage/UseTransitonPage";
+import UuidPage from "../pages/uuid/uuidPage";
 
 
 const PAGES = [
@@ -25,6 +26,7 @@ const PAGES = [
     {url: '/memo', pageName: '#memo', component: <MemoPage />},
     {url: '/portal', pageName: '#portal', component: <PortalPage />},
     {url: '/lazy', pageName: '#lazy', component: <LazyPage />},
+    {url: '/uuid', pageName: '#uuid', component: <UuidPage />},
 ]
 
 export default PAGES;
