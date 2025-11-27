@@ -44,6 +44,10 @@ const DATA_HOOKS = [
     {
         name: 'memo',
         description: 'memo позволяет вам пропустить повторный рендер, когда пропсы не изменились.'
+    },
+    {
+        name: 'lazy',
+        description: 'lazy позволяет отложить загрузку кода компонента до момента его первой отрисовки.'
     }
 ];
 export default DATA_HOOKS;
