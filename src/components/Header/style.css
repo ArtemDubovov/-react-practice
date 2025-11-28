@@ -1,3 +1,7 @@
+.header {
+    padding: 12px;
+}
+
 .header_menu {
     display: flex;
     gap: 24px;
