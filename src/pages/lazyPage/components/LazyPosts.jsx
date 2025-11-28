@@ -21,7 +21,7 @@ function LazyPosts() {
         <div className="wrapper_component">
             {!error && <div>{error}</div>}
             {posts.map(post=> {
-                return <div>
+                return <div key={post.id}>
                     <p>{post.id}</p>
                     <p>{post.body}</p>
                 </div>
