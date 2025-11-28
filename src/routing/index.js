@@ -11,6 +11,7 @@ import UseRefPage from "../pages/useRefPage/useRefPage";
 import UseStatePage from "../pages/useStatePage/useStatePage";
 import UseTransitionPage from "../pages/useTransitionPage/UseTransitonPage";
 import UuidPage from "../pages/uuid/uuidPage";
+import AbortControllerPage from "../pages/AbortControllerPage/AbortControllerPage";
 
 
 const PAGES = [
@@ -27,6 +28,7 @@ const PAGES = [
     {url: '/portal', pageName: '#portal', component: <PortalPage />},
     {url: '/lazy', pageName: '#lazy', component: <LazyPage />},
     {url: '/uuid', pageName: '#uuid', component: <UuidPage />},
+    {url: '/abortController', pageName: '#abortController', component: <AbortControllerPage />},
 ]
 
 export default PAGES;
