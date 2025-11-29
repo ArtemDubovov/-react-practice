@@ -12,6 +12,7 @@ import UseStatePage from "../pages/useStatePage/useStatePage";
 import UseTransitionPage from "../pages/useTransitionPage/UseTransitonPage";
 import UuidPage from "../pages/uuid/uuidPage";
 import AbortControllerPage from "../pages/AbortControllerPage/AbortControllerPage";
+import ComponentLifeCyclesPage from "../pages/componentLifeCycles/ComponentLifeCyclesPage";
 
 
 const PAGES = [
@@ -29,6 +30,7 @@ const PAGES = [
     {url: '/lazy', pageName: '#lazy', component: <LazyPage />},
     {url: '/uuid', pageName: '#uuid', component: <UuidPage />},
     {url: '/abortController', pageName: '#abortController', component: <AbortControllerPage />},
+    {url: '/componentLifeCycles', pageName: '#componentLifeCycles', component: <ComponentLifeCyclesPage />},
 ]
 
 export default PAGES;

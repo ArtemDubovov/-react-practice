@@ -48,6 +48,10 @@ const DATA_HOOKS = [
     {
         name: 'lazy',
         description: 'lazy позволяет отложить загрузку кода компонента до момента его первой отрисовки.'
+    },
+    {
+        name: 'component life cycles',
+        description: 'Жизненный цикл компонента в React состоит из трех основных фаз: монтирование (mounting), обновление (updating) и размонтирование (unmounting). '
     }
 ];
 export default DATA_HOOKS;
